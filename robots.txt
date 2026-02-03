@@ -23,6 +23,11 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
+# Disallow development directories
+Disallow: /.git/
+Disallow: /.claude/
+Disallow: /.agents/
+
 # Sitemap location
 Sitemap: https://www.akhlakulkarimahhipnoterapi.com/sitemap.xml
 
